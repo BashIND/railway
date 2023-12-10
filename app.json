@@ -1,0 +1,30 @@
+{
+   "{
+   "name": "ChatGPT Bot",
+   "description": "Telegram ChatGPT Bot",
+   "repository": "https://github.com/BashIND/chatgpt-bot",
+   "logo": "https://graph.org/file/239b4f1451ec21f30aafa.jpg",
+    "keywords": [
+    "ngrok",
+   ],
+   "repository": "https://github.com/BashIND/chatgpt-bot",
+   "website": "https://github.com/BashIND",
+   "success_url": "https://t.me/fenixs_slayer",
+   "env": {
+      "ngrokid": {
+        "description": "Fill Api ID Take this value from My.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "password": {
+        "description": "Fill Api hash Take this value from My.telegram.org",
+        "value": "",
+        "required": true
+      }
+   },
+    "buildpacks": [
+        {
+          "url": "heroku/python"
+        }
+    ]
+}
